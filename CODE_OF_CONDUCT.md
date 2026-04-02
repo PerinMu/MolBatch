@@ -19,8 +19,3 @@ Examples of unacceptable behavior include:
 - Trolling or insulting comments
 - Public or private abuse
 - Publishing another person's private information without permission
-
-## Enforcement
-
-Project maintainers are responsible for clarifying and enforcing this code of conduct.
-Reports may be sent to: `maintainer@example.com`
