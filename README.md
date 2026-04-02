@@ -3,10 +3,6 @@
 MolBatch is a full-featured batch structure processing toolkit for PyMOL and ChimeraX.
 It converts one-off visualization scripts into a reusable, configurable, and extensible Python package for structural biology workflows.
 
-## Maintainer
-
-- PerinMu
-
 ## Highlights
 
 - Batch discovery of `.cif`, `.mmcif`, and `.pdb` files
