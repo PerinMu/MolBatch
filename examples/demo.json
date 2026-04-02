@@ -1,0 +1,57 @@
+{
+  "project": {
+    "name": "MolBatch Demo",
+    "author": "PerinMu"
+  },
+  "input": {
+    "directory": "examples/input",
+    "patterns": ["*.cif", "*.pdb"],
+    "recursive": false,
+    "exclude_patterns": ["*_ignore.*"],
+    "sort_by": "name",
+    "limit": 0
+  },
+  "reference": {
+    "selector": "first"
+  },
+  "alignment": {
+    "method": "super",
+    "chain": "A",
+    "use_atom_name": true,
+    "atom_name": "CA"
+  },
+  "selection": {
+    "reference_core_chains": "ACE",
+    "display_chains": "XYZ",
+    "show_reference_display_chains": true,
+    "keep_mode": "hide_only",
+    "label_objects": false
+  },
+  "style": {
+    "preset": "publication",
+    "reference_core_color": "red",
+    "reference_display_color": "white",
+    "background_color": "white",
+    "object_opacity": 0.25,
+    "show_reference_surface": false
+  },
+  "output": {
+    "directory": "out",
+    "basename": "demo_scene",
+    "save_session": true,
+    "save_image": true,
+    "report_json": true,
+    "report_csv": true,
+    "report_markdown": true,
+    "write_plan_json": true
+  },
+  "runtime": {
+    "auto_launch": false,
+    "headless": false
+  },
+  "hooks": {
+    "plugin_modules": [],
+    "pre_commands": [],
+    "post_commands": []
+  }
+}
